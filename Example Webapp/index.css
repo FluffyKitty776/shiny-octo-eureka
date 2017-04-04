@@ -1,0 +1,20 @@
+::-webkit-scrollbar {
+   display: block;
+   width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+   display: block;
+   background: rgb(0, 255, 0);
+   border-radius: 0px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+   display: block;
+   border-radius: 0px;
+   background: rgba(255, 0, 0, 0.8);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+   display: block;
+   background: rgb(0, 255, 0);
+}
