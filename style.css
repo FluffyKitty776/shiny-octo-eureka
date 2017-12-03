@@ -46,7 +46,7 @@ table {
   width: 100%;
 }
 table td, table th {
-  border: 2px solid var(—-Blue, #0077ff);;
+  border: 2px solid var(—-Blue, #0077ff);
   padding: 8px;
 }
 table tr:nth-child(even) {
@@ -89,7 +89,7 @@ table th {
   width: 100%;
   border-radius: 0;
   border: none;
-  border-top: 2px solid var(—-Blue, #0077ff);;
+  border-top: 2px solid var(—-Blue, #0077ff);
 }
 
 button,
@@ -98,11 +98,11 @@ input[type="button"],
 input[type="reset"] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: var(—-Green, #00ff77);;
+  background-color: var(—-Green, #00ff77);
   /* Green */
-  border: 2px solid var(—-Blue, #0077ff);;
+  border: 2px solid var(—-Blue, #0077ff);
   border-radius: 16px;
-  color: var(—-Text-color, #000000);;
+  color: var(—-Text-color, #000000);
   text-align: center;
   text-decoration: none;
   padding: 15px 32px;
@@ -113,12 +113,12 @@ input[type="reset"] {
 
 textarea {
   background-color: whiteSmoke;
-  border: 2px solid var(—-Blue, #0077ff);;
+  border: 2px solid var(—-Blue, #0077ff);
   border-radius: 16px;
 }
 
 [disabled] {
-  background-color: var(—-Grey, #5f5f5f);;
+  background-color: var(—-Grey, #5f5f5f);
 }
 
 label [type="checkbox"] {
@@ -126,7 +126,7 @@ label [type="checkbox"] {
 }
 
 [include] {
-  border: 2px solid var(—-Blue, #0077ff);;
+  border: 2px solid var(—-Blue, #0077ff);
   margin: 0.6em;
   padding: 0.8em;
 }
