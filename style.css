@@ -1,4 +1,35 @@
 @include url("https://gist.githubusercontent.com/junkycoder/3105e1da1706196f4b49f7c80b83426a/raw/8aebdee1bc19d147597a968fb459a8a6ae1d6aa9/reboot.css");
+:root {
+—-Grey: #5f5f5f;
+—-Purple: #7700ff;
+—-Red: #ff7700;
+—-Orange: #ff7700;
+—-Yellow: #ffff00;
+—-Green: #00ff77;
+—-Blue: #0077ff;
+—-Indigo: #4B0077;
+—-Violet: #9a0cff;
+—-Black: #000000;
+—-White: #ffffff;
+—-Background-color: #efefef;
+—-Text-color: var(—-black, #000000);
+}
+/*
+var(—-Grey, #5f5f5f);
+var(—-Purple, #7700ff);
+var(—-Red, #ff7700);
+var(—-Orange, #ff7700);
+var(—-Yellow, #ffff00);
+var(—-Green, #00ff77);
+var(—-Blue, #0077ff);
+var(—-Indigo, #4B0077);
+var(—-Violet, #9a0cff);
+var(—-Black, #000000);
+var(—-White, #ffffff);
+var(—-Background-color, #efefef);
+var(—-Text-color, #000000);
+*/
+
 body {
   padding: 0.6em;
 }
@@ -15,7 +46,7 @@ table {
   width: 100%;
 }
 table td, table th {
-  border: 2px solid #0000ee;
+  border: 2px solid var(—-Blue, #0077ff);;
   padding: 8px;
 }
 table tr:nth-child(even) {
@@ -58,7 +89,7 @@ table th {
   width: 100%;
   border-radius: 0;
   border: none;
-  border-top: 2px solid #0000ee;
+  border-top: 2px solid var(—-Blue, #0077ff);;
 }
 
 button,
@@ -67,11 +98,11 @@ input[type="button"],
 input[type="reset"] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: #4CAF50;
+  background-color: var(—-Green, #00ff77);;
   /* Green */
-  border: 2px solid #0000ee;
+  border: 2px solid var(—-Blue, #0077ff);;
   border-radius: 16px;
-  color: white;
+  color: var(—-Text-color, #000000);;
   text-align: center;
   text-decoration: none;
   padding: 15px 32px;
@@ -82,12 +113,12 @@ input[type="reset"] {
 
 textarea {
   background-color: whiteSmoke;
-  border: 2px solid #0000ee;
+  border: 2px solid var(—-Blue, #0077ff);;
   border-radius: 16px;
 }
 
 [disabled] {
-  background-color: grey;
+  background-color: var(—-Grey, #5f5f5f);;
 }
 
 label [type="checkbox"] {
@@ -95,7 +126,7 @@ label [type="checkbox"] {
 }
 
 [include] {
-  border: 2px solid #0000ee;
+  border: 2px solid var(—-Blue, #0077ff);;
   margin: 0.6em;
   padding: 0.8em;
 }
