@@ -46,7 +46,8 @@ table {
   width: 100%;
 }
 table td, table th {
-  border: 2px solid var(—-Blue, #0077ff);
+// blue
+  border: 2px solid #0077ff;
   padding: 8px;
 }
 table tr:nth-child(even) {
@@ -89,7 +90,8 @@ table th {
   width: 100%;
   border-radius: 0;
   border: none;
-  border-top: 2px solid var(—-Blue, #0077ff);
+//blue
+  border-top: 2px solid #0077ff;
 }
 
 button,
@@ -98,11 +100,13 @@ input[type="button"],
 input[type="reset"] {
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-color: var(—-Green, #00ff77);
-  /* Green */
-  border: 2px solid var(—-Blue, #0077ff);
+// green
+  background-color: #00ff77;
+  //blue
+  border: 2px solid #0077ff;
   border-radius: 16px;
-  color: var(—-Text-color, #000000);
+//black
+  color: #000000;
   text-align: center;
   text-decoration: none;
   padding: 15px 32px;
@@ -113,12 +117,14 @@ input[type="reset"] {
 
 textarea {
   background-color: whiteSmoke;
-  border: 2px solid var(—-Blue, #0077ff);
+//blue
+  border: 2px solid #0077ff;
   border-radius: 16px;
 }
 
 [disabled] {
-  background-color: var(—-Grey, #5f5f5f);
+//grey
+  background-color: #5f5f5f;
 }
 
 label [type="checkbox"] {
@@ -126,7 +132,8 @@ label [type="checkbox"] {
 }
 
 [include] {
-  border: 2px solid var(—-Blue, #0077ff);
+//blue
+  border: 2px solid #0077ff;
   margin: 0.6em;
   padding: 0.8em;
 }
